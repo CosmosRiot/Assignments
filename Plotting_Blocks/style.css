@@ -1,0 +1,35 @@
+.my-col {
+    text-align: center;
+}
+
+.my-row {
+    margin: 5px;
+}
+
+.the-footer {
+    /* color: white; */
+    text-align: center;
+    min-height: 50px;
+    margin-top: 10px;
+}
+
+.footer-title {
+    padding: 10px;
+}
+
+.aside-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.aside-box {
+    min-height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.main-box {
+    display: inline-block;
+    max-width: 60%;
+}
