@@ -1,0 +1,29 @@
+pip install Django==1.11.9
+	This command installs Django in my virtual environment but specifically version 1.11.9 of Django. 
+
+pip list
+	This command will list everything installed currently in my virtual environment to verify Django was installed correctly. 
+
+deactivate
+	This command deactivates my virtual environment. 
+
+pip3 list 
+	With the virtual environment deactivated I can see the 	original installed list on my machine and how it differs from my virtual environment. 
+
+source py3Env/Scripts/activate
+	this command reactivates the virtual environment. 
+
+pip install Django==1.11.9
+	We then rerun the install Django command and the terminal does confirm that this version of Django is already installed. 
+
+pip freeze
+	This command shows all the manually installed packages and their version numbers. 
+
+pip freeze > requirements.txt
+	This command saves to a text file the output of the "pip freeze" command. 
+
+pip uninstall Django
+	This command uninstalls the Django package but will ask you to confirm if you actually want to uninstall the package. 
+
+pip show Django
+	This command shows all the version information from the installed Django package like author, contact info for the company and file locations. 
