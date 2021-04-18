@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\rayra\documents\Coding Dojo Assignments\python_stack\my_environments\py3Env
+set VIRTUAL_ENV=C:\Users\rayra\Documents\Coding_Dojo_Assignments\python_stack\my_environments\py3Env
 
 if not defined PROMPT set PROMPT=$P$G
 
